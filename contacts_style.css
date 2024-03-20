@@ -1,0 +1,234 @@
+body {
+	background-color: MintCream;
+	font-family: Calibri;
+
+
+}
+* {
+	text-decoration: none;
+}
+
+.header {
+	margin-top: -10px;
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	box-shadow: 0 5px 60px 1px Gainsboro;
+	border-radius: 10px;
+	display: inline-flex;
+	font-size: 17px;
+}
+
+.header img {
+	width: 15px;
+	height: 15px;
+	margin-top: 5px;
+	opacity: 0.4;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.logotip2 {
+	width: 210px;
+	height: 65px;
+	left: 60px;
+  position: absolute;
+
+}
+.logotip2 img {
+	height: 100%;
+	width: 100%;
+	opacity: 0.6;
+}
+.home_btn {
+	margin:0px 0 0 365px;
+	width: 140px;
+	height: 35px;
+	text-align: center;
+	padding-top: 5px;
+	color: DimGray;
+	transition: 0.5s;
+}
+.place {
+	width: 140px;
+	height: 35px;
+	text-align: center;
+	padding-top: 5px;
+	color: DimGray;
+	transition: 0.5s;
+}
+.consultation {
+	width: 140px;
+	height: 35px;
+	text-align: center;
+	padding-top: 5px;
+	color: DimGray;
+	margin-left: 9px;
+	transition: 0.5s;
+}
+.account {
+	margin-left: 470px;
+	width: 190px;
+	height: 35px;
+	text-align: center;
+	padding-top: 5px;
+	color: DimGray;
+	transition: 0.5s;
+}
+.place:hover {
+	opacity: 0.8;
+	background-color: white;
+	transform: scale(1.05);
+}
+.consultation:hover {
+	opacity: 0.8;
+	background-color: white;
+	transform: scale(1.05);
+}
+.home_btn:hover {
+	opacity: 0.8;
+	background-color: white;
+	transform: scale(1.05);
+}
+.account:hover {
+	opacity: 0.8;
+	background-color: white;
+	transform: scale(1.05);
+}
+
+
+
+.cont {
+	width: 1100px;
+	height: 600px;
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-left: 370px;
+	border-radius: 10px;
+    box-shadow: 0 5px 60px 1px Gainsboro;
+    background-color: white;
+}
+.cont h1 {
+	padding: 30px 0 0 30px;
+}
+.map {
+	margin-top: 30px;
+	width: 100%;
+	height: 463px;
+}
+.cont2 {
+	width: 1300px;
+	height: 180px;
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-left: 270px;
+	border-radius: 10px;
+    box-shadow: 0 5px 60px 1px Gainsboro;
+    background-color: white;
+}
+.cont3 {
+	display: flex;	
+	line-height: 0.001;
+	letter-spacing: 2px;
+	color: #696969;
+}
+.cont3 h4 {
+	color: black;
+}
+.place2 {
+	width: 185px;
+	height: 60px;
+	display: flex;
+	padding: 35px 0 0 100px;
+
+}
+.phone_number {
+	width: 205px;
+	height: 60px;
+	display: flex;
+	padding: 35px 0 0 80px;
+}
+.work {
+	width: 205px;
+	height: 60px;
+	display: flex;
+	padding: 35px 0 0 80px;
+}
+.email {
+	width: 205px;
+	height: 60px;
+	display: flex;
+	padding: 35px 0 0 80px;
+}
+.cont2 img {
+	height:30px;
+	width: 30px;
+	margin-right: 20px;
+	opacity: 0.6;
+	position: ;
+	margin: -5px 15px 0 0 ;
+}
+.place2 img {
+	
+}
+.cont2 h3 {
+	color: #1e8988;
+	margin: 35px 0 0 100px;
+}
+
+
+
+
+
+
+.footer {
+	margin: 100px;
+	height: 200px;
+}
+.futer_logo {
+  display: flex;
+}
+.futer_logo img {
+  width: 160px;
+  height: 50px;
+  opacity: 0.8;
+}
+.cherta {
+  width: 700px;
+  height: 1px;
+  background-color: #696969;
+  margin-top: 20px;
+}
+.footer2 {
+  display: flex;
+  height: 200px;
+}
+.data {
+  margin: 150px 0 0 20px;
+  width: 500px;
+  color: #696969;
+}
+.data p {
+  font-size: 11px;
+}
+.our_place {
+  margin: 40px 0 0 200px;
+  color: #696969;
+  width: 250px;
+}
+.our_contacts {
+  margin: 20px 0 0 410px;
+  text-align: right;
+}
+.phone_number2 {
+  text-align: right;
+  color: green;
+  font-size: 30px;
+  line-height: 50px;
+}
+.our_contacts img {
+  width: 40px;
+  height: 40px;
+}
+.our_contacts:hover a {
+	background-color: white;
+}
